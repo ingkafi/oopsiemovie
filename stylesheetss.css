@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    background-color: #204a66;
+    font-family: "Lucida Grande";
+}
+  
+a {
+    text-decoration: none;
+}
+
+.row{
+  padding: 10px;
+  margin-left: 25px;
+  background-color: #326789;
+}
+.top-wrapper {
+    height: 900px;
+    background-color: #204a66;
+    background: url(images/bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+    text-align: left;
+    
+}
+  
+.top-wrapper h1 {
+    opacity: 0.9;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.top-wrapper h2 {
+    opacity: 0.9;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.btn-wrapper {
+    margin: 10px 0;
+}
+  
+.btn-wrapper p {
+    margin: 10px 0;
+}
+  
+.signup{
+    background-color: #85BA65 !important;
+    padding: 12px 24px;
+    color: white !important;
+    display: inline-block;
+    border-radius: 4px;
+}
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color:#204a66;
+    /* Ubah position ke fixed, dan top ke 0 */
+    position:fixed;
+    top:0;
+    
+    /* Ubah z-index ke 10 */
+    z-index:10;
+  }
+  
+  .logo {
+    width: 80px;
+    margin-top: 10px;
+  }
+
+  .header-left {
+    float: left;
+  }
+
+  .header-left a{
+      margin-left:20px;
+      color: #eaeff3 !important;
+      font-size: 24px;
+      padding-top: 10px;
+  }
+  
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #eaeff3;
+    display: block;
+  }
+
+  .header-right a:hover{
+    color:#eaeff3;
+  }
+  
+  .lesson-wrapper {
+    height: 250px;
+    padding-bottom: 80px;
+    background-color: #204a66;
+    text-align: center;
+  }
+  
+  .heading {
+    padding: 20px;
+    
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blog_post{
+    width: 20%;
+    margin: 20px;
+    align-self : center;
+    height: auto;
+    background-color: #E65C4F !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    float:left;
+    
+    
+  }
+
+  .blog_single{
+    width: 100%;
+    height: auto;
+    margin: -10px 30px 50px;
+    background-color: white !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    float:left;
+    
+    
+  }
+  .text-blog{
+    align-self: center;
+    margin: auto;
+    font-family: helvetica;
+    font-weight: bold;
+    color: black;
+  }
+  .blog-img{
+    width:  100%;
+    height: auto;
+  }
+  .card-title{
+    height: auto;
+    color: black;
+    font-size: 26px;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  .blogPara{
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 16px;
+    color: black;
+  }
+  .extraText span{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+  }
+  .readMore{
+    background-color: #33678a;
+    margin: 10px 0;
+  }
+  .readMore:hover{
+    background-color: #33678a;
+    color: #eaeff3;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .pagenation{
+    margin: 30px 0;
+  }
+  .page-link{
+    color: bisque;
+    font-weight: bold;
+  }
+
+  footer{
+    width: 100%;
+    background-color:  #E65C4F;
+    height: 50px;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  footer > p{
+    text-align: center;
+    margin: 5px;
+    color:#eaeff3;
+  }
+  footer > p > a > i{
+    margin: 0 20px;
+    color: #eaeff3;
+  }
+
+  .col-4 {
+    margin:0;
+    margin:auto;
+    
+  }
+  
+.comment-section{	
+  padding: 20px;
+	margin-top: 30px;
+}
+.legend{
+	font-family: 'helvetica';
+  font-size: 25px;
+  color:white;
+  font-weight: bold;
+}
+.form-group{
+	width: 70%;
+}
+.submit{
+	background-color: bisque;
+	margin: 0 6px;
+}
+.submit:hover{
+	background-color:#290001;
+	color: bisque;
+	font-weight: bold;
+	font-size: 17px;
+}
+.comments{
+  background-color: #326789;
+  border-radius: 5px;
+	padding: 10px;
+	margin: 30px 0;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.comment-1{
+	color: #fff;
+	padding: 5px;
+	margin: 5px 8px 0 0;
+}
+.comments-heading{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	font-family: 'Acme', sans-serif;
+}
+.comments-mail{
+	font-size: 12px;
+	margin-bottom: 4px;
+}
+.user{
+	padding: 20px;
+}
+.user i{
+	color:#290001;
+	font-size: 40px;
+}
